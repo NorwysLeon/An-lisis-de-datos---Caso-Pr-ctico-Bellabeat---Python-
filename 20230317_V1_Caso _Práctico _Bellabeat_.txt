@@ -1,0 +1,37 @@
+#Registro de cambios
+
+Caso Práctico Bellabeat - Python - Jupyter Notebook
+Este archivo contiene los cambios importantes que se realizaron a este proyecto.
+
+Versión 1.0.0 (17-03-2023)
+
+
+Leyenda de clasificación:
+Nuevo: nuevas funciones introducidas
+Cambios: cambios en funcionalidad existente
+Obsoleto: funciones a punto de ser eliminadas
+Eliminado: funciones que han sido eliminadas
+Corregido: correcciones de errores
+Seguridad: disminución de vulnerabilidades
+
+
+## Nuevo
+- Columna "Year" de DF "dailyActivity" agregada para análisis de tiempo.
+- Columna "Month" de DF "dailyActivity" agregada para análisis de tiempo.
+- Columna "Day-week" de DF "dailyActivity" agregada para análisis de tiempo.
+- grupo1 : (1000 - 1841) calorías.
+- grupo2 : (1842-2797) calorías..
+- grupo3: (>2797) calorías.
+
+
+## Cambios 
+- Eliminación de dos filas duplicadas en "sleepDay".
+- Tipo de dato de la columna "ActivityDate" deL DF "dailyActivity" a 'datetime64'.
+- Nombre de la columna "ActivityDate" deL DF "dailyActivity" a 'Date'.
+- Tipo de dato de la columna "ActivityDate" deL DF "hourlyCalories" a 'datetime64'.
+- Nombre de la columna "ActivityDate" deL DF "hourlyCalories" a 'Datehour'.
+- Tipo de dato de la columna "ActivityDate" deL DF "hourlySteps" a 'datetime64'.
+- Nombre de la columna "ActivityDate" deL DF "hourlySteps" a 'Datehour'.
+- Tipo de dato de la columna "ActivityDate" deL DF "sleepDay" a 'datetime64'.
+- Nombre de la columna "ActivityDate" deL DF "sleepDay" a 'Date'.
+- Valor de la columna "Calories">999 del DF "ActivityDate".
